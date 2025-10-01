@@ -1,0 +1,186 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    top:0;
+    position:fixed;
+    width: 100%;
+    z-index:2;
+    background: #000;
+}
+
+nav h1{
+    position: relative;
+    z-index:1;
+    
+    color: #CFFFE2;
+    display: inline-block;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+   
+}
+nav ul li{
+    margin:5px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+nav ul li a{
+    margin:5px;
+    position:relative;
+    color:#F6F6F6;
+    transition: .3s;
+    font-size:1.1rem;
+    padding:5px;
+}
+
+.toggleSenha{
+        position: relative;
+    top: -32px;
+    color: #111;
+    font-size: 1.5rem;
+    right: -23%;
+}
+nav ul li::before{
+    content:" ";
+    width: 0;
+    background-color: #A2D5C6;
+    position:absolute;
+    height:100%;
+    transition: .5s;
+    border-radius: 3px;
+    z-index:0;
+}
+nav ul li:hover::before{
+    width:100%;
+    
+}
+.abtn{
+    position: relative;
+    background-color: #CFFFE2;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow:
+        0 0 5px #CFFFE2,
+        0 0 10px #CFFFE2,
+        0 0 20px #CFFFE2;
+        
+        transition: 0.3s;
+        color: #000;
+        font-weight: 600;
+}
+.abtn:hover{
+     box-shadow: none;
+    background-color: #000;
+    color:#F6F6F6;
+}
+nav ul li:hover a{
+    color:#000;
+}
+section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    top:70px;
+}
+section div{
+    width: 50%;
+}
+#desliz{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    background-color: #a2c1d5;
+    transition: .5s;
+}
+#btn1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 40px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    color: #000;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #F6F6F6;
+}
+form input{
+    width: 50%;
+    height: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #F6F6F6;
+    color: #000;
+    margin: 10px;
+    font-size: 1.1rem;
+}
+form button{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F6F6F6;
+    color: #000;
+    font-weight: 600;
+    transition: .3s;
+    outline: none;
+}
+#descontent{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+#forgotpass{
+    color: #a2c1d5;
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 768px){
+    
+    form input, form button{
+        width: 90%;
+    }
+    section{
+        padding: 0;
+        height: 90vh;
+    }
+}

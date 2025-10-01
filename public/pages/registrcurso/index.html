@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrar curso json</title>
+</head>
+<body>
+    <form id="formcurso">
+        <input type="text" id="nomecurso" placeholder="Nome do curso" required>
+        <input type="text" id="descricaocurso" placeholder="Descrição do curso" required>
+        
+        <h2>Móudlos</h2>
+        <div id="modcont"></div>
+        <button type="button" id="addmod" onclick="addModule()">Adicionar módulo</button>
+        <button type="submit">gerar json</button>
+    </form>
+    <pre id="jsonger"></pre>
+</body>
+<script>
+    let modcount = 0;
+
+    function addModule() {
+        modcount++;
+        const modDiv = document.createElement('div');
+        modDiv.className = 'modul';
+        modDiv.innerHTML = `
+            <input type="text" id="modnome${modcount}" placeholder="Nome do módulo ${modcount}" required>
+            <input type="text" id="moddescri${modcount}" placeholder="Descrição do módulo" required>
+            <div class="aulacont"></div>
+            <button type="button" class="addaul" onclick="addAula(this)">Adicionar aula</button>
+            
+        `;
+        document.getElementById('modcont').appendChild(modDiv);
+    }
+    function addAula(btn){
+        const aulacont = btn.previousElementSibling;
+        const aulaDiv = document.createElement('div');
+        aulaDiv.className = 'aula';
+        aulaDiv.innerHTML = `
+            <input type="text" placeholder="Nome da aula" required>
+            <input type="text" placeholder="Descrição da aula" required>
+            <input type="file" accept="video/*" required>
+            
+        `;
+        aulacont.appendChild(aulaDiv);
+    }
+    document.getElementById('formcurso').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const curso = {
+            titulo: document.getElementById('nomecurso').value,
+            descricao: document.getElementById('descricaocurso').value,
+            modulos:[]
+        };
+        const modulos = document.querySelectorAll('.modul');
+        modulos.forEach(modulo =>{
+            const title = modulo.querySelector('input[type="text"]').value;
+            const description = modulo.querySelector('input[type="text"]:nth-child(2)').value;
+            const aulas = [];
+            modulo.querySelectorAll('.aula').forEach(aula =>{
+                aulas.push({
+                    titulo:aula.querySelector('input[type="text"]').value,
+                    descricao:aula.querySelector('input[type="text"]:nth-child(2)').value,
+                    video:aula.querySelector('input[type="file"]').files[0].name
+                    
+                });
+            });
+            curso.modulos.push({
+                titulo: title,
+                descricao: description,
+                aulas: aulas
+            });
+        });
+        document.getElementById('jsonger').textContent = JSON.stringify(curso, null, 2);
+    });
+</script>
+</html>
+

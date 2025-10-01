@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>FTICursos | Área do Aluno</title>
+</head>
+<body>
+    <nav>
+        <a href="../../index.html" style="text-decoration: none; "><h1>FTICursos</h1></a>
+         <button class="btnmenu" onclick="switchmenu()"><i class='bx bx-menu'></i></button>
+        <ul id="navlink">
+            <li><a href="../../index.html">Página principal</a></li>
+            <li><a href="" id="deslog">Deslogar</a></li>
+        </ul>
+    </nav>
+    <section class="area">
+        <h1>Bem vindo <span id="nameof"></span>!</h1>
+        <div id="cursosacessados">
+            <h2>Cursos que você acessou!</h2>
+            <div id="cardport">
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <script>
+       window.addEventListener("load", () => {
+ 
+  if (!localStorage.getItem("jaRecarregou")) {
+    localStorage.setItem("jaRecarregou", "true");
+    window.location.reload();
+  } else {
+    
+    localStorage.removeItem("jaRecarregou");
+  }
+});
+        document.getElementById("deslog").addEventListener("click", function (){
+            event.preventDefault();
+            logout();
+        })
+async function logout() {
+  try {
+    const res = await fetch("/logout", {
+      method: "GET",
+      credentials: "include"
+    });
+    const data = await res.json();
+
+    if (data.redirect) {
+      window.location.assign(data.redirect);
+    }
+  } catch (err) {
+    console.error("Erro no logout:", err);
+  }
+}
+  
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

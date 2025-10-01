@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>FTI Cursos | Curso</title>
+</head>
+<body>
+    <nav>
+        <a href="../../index.html" style="text-decoration: none; "><h1>FTICursos</h1></a>
+        <button class="btnmenu" onclick="switchmenu()"><i class='bx bx-menu'></i></button>
+        <ul id="navlink">
+            <li><a href="../../index.html">Página principal</a></li>
+            <li><a id="alumnarealink" href="">Área do aluno</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        
+        <h1 id="Titulo">Titulo do curso</h1>
+        <p id="DescCurse">Descrição do curso Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Est amet, hic quaerat, distinctio repellat doloribus
+             ipsum tempora totam minus error nostrum quos sint cum, earum illum perspiciatis!
+              Aspernatur, cum asperiores.</p>
+    </section>
+    <section id="coursearea">
+        <div class="vidp">
+            <h2 id="classtitle">Título da aula</h2>
+            <video controls id="videoPlayer">
+                <source src="../../media/videoplayback.mp4" type="video/mp4" >
+
+                Seu navegador não suporta o elemento de vídeo.</video>
+                <h3>Descrição da aula</h3>
+                <p id="classdesc">descrição da aula</p>
+            <div class="buttons">
+                <button class="prev" onclick="backvideo(this)">Anterior</button>
+                <button class="next" onclick="nextvideo(this)">Próximo</button>
+            </div>
+        </div>
+        <div class="modul" id="modulacord">
+            <h2>Módulos do curso</h2>
+            
+        </div>
+    </section>
+     <footer id="contact">
+        <h1>Contato</h1>
+        <div>
+            <ul>
+                <li>Redes Sociais</li> <br>
+                <li><a href=""><i class='bx bxl-whatsapp'></i> (11) 99999-9999</a></li>
+                <li><a href=""><i class='bx bxl-instagram' ></i> @fticursos</a></li>
+                <li><a href=""><i class='bx bxl-facebook'></i> FTI Cursos</a></li>
+                <li><a href=""><i class='bx bxl-twitter'></i> @fticursos</a></li>
+            </ul>
+            <ul>
+                <li>Links</li><br>
+                <li><a href="">Mais dos nossos cursos</a></li>
+                <li><a href="">Nossa História</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

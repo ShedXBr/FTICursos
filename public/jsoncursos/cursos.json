@@ -1,0 +1,1942 @@
+{
+  "cursos": [
+    {
+      "titulo": "Python",
+      "certificate": true,
+      "descricao": "Aprenda da melhor forma a fazer diversos sistemas com Python",
+      "duration": 30,
+      "modulos": [
+        {
+          "titulo": "Modulo 1 - Introdução",
+          "descricao": "Conheça o universo do Python, sua história e por que é uma das linguagens mais amadas do mundo.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é Python?",
+              "descricao": "Entenda o que é Python, sua origem, suas aplicações no mercado e por que vale a pena aprender essa linguagem poderosa.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Variáveis",
+              "descricao": "Aprenda como declarar, utilizar e boas práticas para variáveis em Python.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Tipos de dados",
+              "descricao": "Descubra os principais tipos de dados como inteiros, strings, booleanos e floats com exemplos práticos.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 4 - Entrada e saída",
+              "descricao": "Veja como o usuário pode interagir com seus programas utilizando input() e print().",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 2 - Controle de Fluxo",
+          "descricao": "Domine as estruturas que permitem seu código tomar decisões e repetir ações.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Condições com if, elif, else",
+              "descricao": "Saiba como criar decisões em seu programa com estruturas condicionais.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Operadores lógicos e de comparação",
+              "descricao": "Aprenda a usar operadores para comparar valores e combinar condições de forma eficiente.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Laços de repetição (while e for)",
+              "descricao": "Repita ações de forma controlada com os principais laços de repetição do Python.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 3 - Funções",
+          "descricao": "Organize seu código em blocos reutilizáveis com funções personalizadas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Criando funções",
+              "descricao": "Aprenda a declarar e utilizar funções simples e com parâmetros.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Retorno de valores",
+              "descricao": "Entenda como retornar dados das suas funções e encadear funcionalidades.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Escopo de variáveis",
+              "descricao": "Descubra a diferença entre variáveis locais e globais dentro de funções.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 4 - Trabalhando com listas e dicionários",
+          "descricao": "Aprenda a manipular estruturas de dados essenciais em Python para armazenar e organizar informações.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Listas",
+              "descricao": "Veja como criar, acessar, modificar e percorrer listas com exemplos práticos.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Dicionários",
+              "descricao": "Entenda como utilizar pares chave-valor para armazenar dados de maneira eficiente.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Métodos úteis",
+              "descricao": "Explore os métodos mais utilizados de listas e dicionários, como append(), remove(), get() e outros.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 5 - Projeto: Calculadora de IMC",
+          "descricao": "Coloque em prática tudo o que foi aprendido desenvolvendo um projeto completo.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Planejamento do projeto",
+              "descricao": "Entenda o que será feito, os requisitos e como organizar o código.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Estrutura do código",
+              "descricao": "Aprenda a estruturar o código com boas práticas e separação lógica de partes.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Execução e testes",
+              "descricao": "Implemente, teste e veja o resultado final da sua calculadora de IMC funcional.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "JavaScript",
+      "certificate": false,
+      "descricao": "Aprenda JavaScript do básico ao avançado, dominando a linguagem que move a web!",
+      "duration": 25,
+      "modulos": [
+        {
+          "titulo": "Modulo 1 - Fundamentos do JavaScript",
+          "descricao": "Comece sua jornada entendendo o básico da linguagem mais usada na web.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Introdução ao JavaScript",
+              "descricao": "Descubra o que é JavaScript, sua importância na web e onde ele é usado.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Variáveis e tipos de dados",
+              "descricao": "Aprenda a declarar variáveis com var, let e const, e conheça os tipos de dados em JS.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Operadores básicos",
+              "descricao": "Veja como utilizar operadores matemáticos, de comparação e lógicos.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 4 - Console e debugging",
+              "descricao": "Aprenda a usar o console para testar seu código e identificar erros.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 2 - Controle de Fluxo e Funções",
+          "descricao": "Domine as estruturas de decisão, repetição e funções no JavaScript.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - If, else e switch",
+              "descricao": "Aprenda a fazer verificações lógicas com if, else e switch.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Loops: for, while e do while",
+              "descricao": "Repita ações de forma automatizada com os laços de repetição do JS.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Funções tradicionais e arrow functions",
+              "descricao": "Crie funções reutilizáveis e conheça a sintaxe moderna das arrow functions.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 3 - Manipulação de DOM",
+          "descricao": "Interaja com o HTML e controle elementos da página via JavaScript.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é o DOM?",
+              "descricao": "Entenda a estrutura do DOM e como ela representa o HTML da página.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Selecionando elementos",
+              "descricao": "Aprenda a selecionar elementos HTML com querySelector, getElementById e outros.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Manipulando estilos e conteúdo",
+              "descricao": "Altere texto, HTML interno e estilos diretamente com JavaScript.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 4 - Eventos e interações",
+              "descricao": "Descubra como responder a cliques, teclas e outras ações do usuário.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 4 - Arrays e Objetos",
+          "descricao": "Aprenda a organizar e manipular dados com arrays e objetos em JavaScript.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Trabalhando com arrays",
+              "descricao": "Crie, acesse e modifique listas de dados com métodos como push, pop e map.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Objetos e suas propriedades",
+              "descricao": "Entenda como armazenar informações estruturadas com objetos.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Loop em arrays e objetos",
+              "descricao": "Percorra arrays e objetos com for, forEach e for...in.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 5 - Projeto: To-do List",
+          "descricao": "Construa seu primeiro projeto completo: uma lista de tarefas interativa!",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Estrutura e HTML base",
+              "descricao": "Monte a base do seu projeto com HTML semântico e bem organizado.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Adicionando tarefas com JavaScript",
+              "descricao": "Implemente a lógica para adicionar itens dinamicamente.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Remover e marcar tarefas",
+              "descricao": "Permita que o usuário conclua ou delete tarefas da lista.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 4 - Estilos e finalização",
+              "descricao": "Aplique um toque visual com CSS e finalize seu projeto com interatividade total.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "Java",
+      "certificate": true,
+      "descricao": "Aprenda Java do zero ao avançado e domine a linguagem mais utilizada no mundo corporativo!",
+      "duration": 45,
+      "modulos": [
+        {
+          "titulo": "Modulo 1 - Introdução ao Java",
+          "descricao": "Conheça a linguagem Java, sua história, características e porque ela é tão usada em sistemas robustos.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é Java?",
+              "descricao": "Descubra o que é Java, onde é aplicado e quais empresas utilizam essa tecnologia.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Instalando o Java e IDE",
+              "descricao": "Aprenda a instalar o Java Development Kit e configurar sua IDE para programar.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Estrutura básica de um programa",
+              "descricao": "Veja como criar seu primeiro programa e entender a estrutura básica do código Java.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 4 - Sintaxe e boas práticas",
+              "descricao": "Entenda as regras da sintaxe e aprenda a manter um código limpo e legível.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 2 - Variáveis, Tipos e Operadores",
+          "descricao": "Aprenda a armazenar e manipular dados no Java com variáveis e operadores.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Variáveis e constantes",
+              "descricao": "Veja como declarar variáveis e constantes, entendendo a diferença entre elas.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Tipos primitivos",
+              "descricao": "Conheça os principais tipos de dados como int, double, char e boolean.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Operadores",
+              "descricao": "Aprenda a usar operadores aritméticos, de comparação e lógicos.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 3 - Controle de Fluxo",
+          "descricao": "Domine estruturas condicionais e de repetição para criar lógica nos programas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - If, else e switch",
+              "descricao": "Crie condições para que seu programa tome decisões automaticamente.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Loops for, while e do while",
+              "descricao": "Repita ações automaticamente com laços de repetição.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Break e continue",
+              "descricao": "Controle o fluxo de loops com as palavras-chave break e continue.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 4 - Orientação a Objetos",
+          "descricao": "Entenda o paradigma de programação mais usado em Java: a Orientação a Objetos.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Classes e Objetos",
+              "descricao": "Crie classes e instancie objetos para organizar seu código.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Atributos e Métodos",
+              "descricao": "Aprenda a definir dados e comportamentos para suas classes.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Encapsulamento",
+              "descricao": "Proteja os dados das suas classes e controle o acesso a eles.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 5 - Projeto Final: Sistema de Cadastro",
+          "descricao": "Aplique todo o conhecimento criando um sistema completo de cadastro em Java.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Estruturando o projeto",
+              "descricao": "Planeje o sistema e organize os pacotes e classes.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Implementando funcionalidades",
+              "descricao": "Crie o código que irá cadastrar, listar e remover registros.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Testando e finalizando",
+              "descricao": "Teste todas as funcionalidades e finalize o projeto para entrega.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "HTML5",
+      "certificate": true,
+      "descricao": "Aprenda HTML5 do zero e domine a base para criar páginas web modernas e bem estruturadas!",
+      "duration": 25,
+      "modulos": [
+        {
+          "titulo": "Modulo 1 - Fundamentos do HTML5",
+          "descricao": "Conheça a história do HTML, sua importância e a base para qualquer site.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é HTML5?",
+              "descricao": "Descubra o que é HTML5, suas novidades e como ele estruturou a web moderna.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Estrutura básica de uma página",
+              "descricao": "Aprenda a montar o esqueleto de uma página HTML com as principais tags.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Salvando e abrindo arquivos",
+              "descricao": "Veja como criar arquivos .html e abrir no navegador para visualizar.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 4 - Comentários e boas práticas",
+              "descricao": "Entenda como usar comentários e manter um código limpo e organizado.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 2 - Estruturação de Conteúdo",
+          "descricao": "Aprenda a organizar o conteúdo usando tags semânticas para melhor acessibilidade e SEO.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Títulos e parágrafos",
+              "descricao": "Use as tags de título (h1 a h6) e parágrafos para estruturar seu texto.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Listas ordenadas e não ordenadas",
+              "descricao": "Crie listas para organizar informações em sequência ou de forma simples.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Links e navegação",
+              "descricao": "Adicione links internos e externos para navegar entre páginas.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 3 - Trabalhando com Mídia",
+          "descricao": "Aprenda a inserir imagens, áudios e vídeos nas páginas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Inserindo imagens",
+              "descricao": "Use a tag img para adicionar imagens e definir atributos como alt e title.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Inserindo vídeos",
+              "descricao": "Veja como incorporar vídeos locais ou do YouTube.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Áudio no HTML5",
+              "descricao": "Aprenda a inserir arquivos de áudio e controlar sua reprodução.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 4 - Formulários e Inputs",
+          "descricao": "Domine a criação de formulários para interagir com os usuários.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Estrutura básica de um formulário",
+              "descricao": "Use a tag form para criar campos de preenchimento.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Tipos de inputs",
+              "descricao": "Descubra os diferentes tipos de campos como texto, senha, email e data.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Botões e envio de dados",
+              "descricao": "Crie botões de envio e aprenda a enviar dados para o servidor.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Modulo 5 - Projeto Final: Página de Portfólio",
+          "descricao": "Aplique tudo que aprendeu criando um portfólio pessoal completo.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Estrutura do portfólio",
+              "descricao": "Monte a estrutura HTML base para o portfólio.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Adicionando conteúdo",
+              "descricao": "Insira imagens, textos e links para seus projetos.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Finalizando o projeto",
+              "descricao": "Revise o código e prepare seu portfólio para publicação.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "Modelagem 3D",
+      "certificate": false,
+      "descricao": "Domine as principais técnicas de modelagem 3D para criar personagens, cenários e objetos realistas ou estilizados, utilizando as ferramentas mais populares do mercado.",
+      "duration": 15,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Fundamentos da Modelagem 3D",
+          "descricao": "Compreenda os conceitos básicos, a interface dos softwares e a lógica por trás da criação tridimensional.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é Modelagem 3D?",
+              "descricao": "Conheça o universo da modelagem 3D, entendendo suas aplicações em jogos, filmes, arquitetura e impressão 3D.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Principais Softwares",
+              "descricao": "Aprenda sobre Blender, Maya, 3ds Max e outras ferramentas utilizadas por artistas e estúdios profissionais.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Navegando no Espaço 3D",
+              "descricao": "Descubra como se locomover e manipular objetos dentro de um ambiente tridimensional.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Modelagem de Objetos",
+          "descricao": "Aprenda a criar formas simples e complexas utilizando técnicas de modelagem poligonal.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Primitivos Básicos",
+              "descricao": "Entenda como usar cubos, esferas e cilindros como base para seus modelos.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Extrusão e Corte",
+              "descricao": "Crie detalhes e formas avançadas através de extrusão e subdivisão de superfícies.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Organização da Cena",
+              "descricao": "Mantenha seu projeto limpo e otimizado utilizando coleções e hierarquias.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Escultura Digital",
+          "descricao": "Domine a técnica de escultura para criar modelos orgânicos e detalhados.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Ferramentas de Escultura",
+              "descricao": "Conheça os pincéis e recursos para criar formas orgânicas.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Detalhamento e Refinamento",
+              "descricao": "Aprimore seus modelos adicionando texturas e microdetalhes.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Preparação para Impressão 3D",
+              "descricao": "Ajuste e exporte seus modelos para impressão física.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Texturização e Render",
+          "descricao": "Aprenda a aplicar cores, materiais e iluminação para dar vida aos seus modelos.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Aplicando Materiais",
+              "descricao": "Utilize shaders e texturas para criar superfícies realistas.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Iluminação Básica",
+              "descricao": "Entenda como posicionar luzes para criar atmosferas e destacar detalhes.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Renderização Final",
+              "descricao": "Aprenda a exportar imagens e animações com qualidade profissional.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Arte 2D",
+      "certificate": false,
+      "descricao": "Aprenda a criar ilustrações digitais e artes conceituais incríveis, dominando desde o desenho básico até técnicas avançadas de pintura e composição.",
+      "duration": 10,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Fundamentos do Desenho",
+          "descricao": "Entenda as bases do desenho, proporção, formas e observação.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Materiais e Ferramentas",
+              "descricao": "Conheça as ferramentas tradicionais e digitais para iniciar na arte 2D.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Linhas e Formas Básicas",
+              "descricao": "Aprenda a criar formas sólidas e linhas confiantes.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Proporção e Estrutura",
+              "descricao": "Descubra como manter proporções corretas em seus desenhos.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Desenho de Personagens",
+          "descricao": "Crie personagens expressivos e bem estruturados.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Anatomia Básica",
+              "descricao": "Entenda a estrutura do corpo humano e animal para criação de personagens.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Expressões Faciais",
+              "descricao": "Aprenda a transmitir emoções através do rosto.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Design de Personagem",
+              "descricao": "Combine formas, cores e roupas para criar personagens únicos.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Pintura Digital",
+          "descricao": "Domine técnicas de pintura e coloração digital.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Teoria das Cores",
+              "descricao": "Entenda como cores funcionam e como combiná-las.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Luz e Sombra",
+              "descricao": "Crie volume e profundidade através de iluminação correta.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Técnicas de Renderização",
+              "descricao": "Aplique métodos de pintura digital para acabamento profissional.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Cenários e Composição",
+          "descricao": "Crie ambientes imersivos e composições harmônicas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Perspectiva",
+              "descricao": "Aprenda a desenhar em perspectiva para criar profundidade.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Layout e Composição",
+              "descricao": "Organize elementos para direcionar o olhar do espectador.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Finalização da Obra",
+              "descricao": "Prepare a arte para exportação e apresentação.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    }, {
+      "titulo": "C++",
+      "certificate": true,
+      "descricao": "Aprenda C++ do zero ao avançado, desde a sintaxe básica até programação orientada a objetos e otimização de código.",
+
+      "duration": 45,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Fundamentos do C++",
+          "descricao": "Conheça a estrutura da linguagem, sintaxe básica e primeiros programas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Introdução e Instalação",
+              "descricao": "Entenda o que é C++ e configure seu ambiente de desenvolvimento.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Variáveis e Tipos de Dados",
+              "descricao": "Aprenda sobre tipos primitivos e declaração de variáveis.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Operadores e Expressões",
+              "descricao": "Utilize operadores aritméticos, lógicos e relacionais.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Controle de Fluxo",
+          "descricao": "Crie programas que tomam decisões e repetem tarefas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Estruturas Condicionais",
+              "descricao": "Trabalhe com if, else e switch-case.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Laços de Repetição",
+              "descricao": "Use for, while e do-while para criar loops.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Controle de Loop",
+              "descricao": "Aplique break e continue de forma eficiente.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Funções e Arrays",
+          "descricao": "Organize seu código com funções e trabalhe com coleções de dados.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Declaração e Chamada de Funções",
+              "descricao": "Aprenda a criar e chamar funções.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Parâmetros e Retorno",
+              "descricao": "Passe valores e receba resultados de funções.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Arrays e Matrizes",
+              "descricao": "Manipule listas e tabelas de dados.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Programação Orientada a Objetos",
+          "descricao": "Aplique conceitos de POO para estruturar seu código.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Classes e Objetos",
+              "descricao": "Crie estruturas orientadas a objetos.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Encapsulamento e Herança",
+              "descricao": "Reaproveite código e proteja dados.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Polimorfismo",
+              "descricao": "Entenda como métodos podem se comportar de formas diferentes.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "SQL",
+      "certificate": true,
+      "descricao": "Aprenda SQL do básico ao avançado, criando, consultando e manipulando bancos de dados relacionais.",
+      "duration": 30,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Introdução ao SQL",
+          "descricao": "Conceitos fundamentais de bancos de dados e comandos básicos.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é SQL e Bancos de Dados",
+              "descricao": "Entenda o conceito de SQL e sua importância.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Criando seu Primeiro Banco",
+              "descricao": "Crie um banco de dados do zero usando comandos SQL.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Estrutura de Tabelas",
+              "descricao": "Crie tabelas e defina colunas com diferentes tipos de dados.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Manipulação de Dados",
+          "descricao": "Insira, atualize e delete dados no banco.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Inserindo Registros",
+              "descricao": "Use o comando INSERT para adicionar dados.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Atualizando Registros",
+              "descricao": "Use o comando UPDATE para modificar informações.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Excluindo Registros",
+              "descricao": "Remova dados com o comando DELETE.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Consultas Avançadas",
+          "descricao": "Recupere dados com filtros, ordenações e junções.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Filtros com WHERE",
+              "descricao": "Aplique condições para refinar resultados.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Ordenação e Limitação",
+              "descricao": "Use ORDER BY e LIMIT para organizar e restringir resultados.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Junções (JOINs)",
+              "descricao": "Combine dados de várias tabelas.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Funções e Otimização",
+          "descricao": "Utilize funções e melhore a performance de consultas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Funções de Agregação",
+              "descricao": "Use COUNT, SUM, AVG, MIN e MAX para análises rápidas.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Índices e Performance",
+              "descricao": "Crie índices para acelerar consultas.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Views e Procedures",
+              "descricao": "Crie consultas salvas e procedimentos armazenados.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "React.js",
+      "certificate": true,
+      "descricao": "Aprenda a criar interfaces modernas e dinâmicas com React.js, do básico ao avançado.",
+      "duration": 35,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Fundamentos do React",
+          "descricao": "Conceitos essenciais para começar com React.js.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é React.js",
+              "descricao": "Introdução ao React, seus benefícios e quando usá-lo.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Criando seu Primeiro Componente",
+              "descricao": "Aprenda a criar e renderizar componentes básicos.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - JSX na Prática",
+              "descricao": "Entenda e utilize JSX para escrever código mais intuitivo.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Estado e Propriedades",
+          "descricao": "Gerencie dados e compartilhe informações entre componentes.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Props",
+              "descricao": "Passe dados para componentes usando propriedades.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - useState",
+              "descricao": "Gerencie o estado interno de componentes.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - useEffect",
+              "descricao": "Controle efeitos colaterais em seus componentes.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Roteamento",
+          "descricao": "Navegue entre páginas com React Router.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Configurando o React Router",
+              "descricao": "Adicione navegação à sua aplicação.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Rotas Dinâmicas",
+              "descricao": "Crie rotas que recebem parâmetros.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Navegação Programática",
+              "descricao": "Redirecione usuários via código.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Integração com APIs",
+          "descricao": "Busque e envie dados para APIs externas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Fetch API",
+              "descricao": "Consuma dados de uma API REST usando fetch.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Axios",
+              "descricao": "Utilize a biblioteca Axios para requisições mais simples.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Tratamento de Erros",
+              "descricao": "Gerencie erros ao consumir APIs.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "Node.js",
+      "certificate": true,
+      "descricao": "Aprenda a criar aplicações backend rápidas e escaláveis com Node.js, do básico ao avançado.",
+      "duration": 40,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Introdução ao Node.js",
+          "descricao": "Fundamentos do Node.js e seu funcionamento.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é Node.js",
+              "descricao": "Entenda o que é Node.js e suas vantagens.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Instalando Node.js e npm",
+              "descricao": "Passo a passo para instalar Node.js e o gerenciador de pacotes npm.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Primeiro Script com Node.js",
+              "descricao": "Crie e execute seu primeiro código Node.js.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Módulos e Pacotes",
+          "descricao": "Organização do código e uso de bibliotecas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Módulos Internos",
+              "descricao": "Utilizando módulos nativos do Node.js como fs e path.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - npm e Instalação de Pacotes",
+              "descricao": "Instale bibliotecas e utilize no seu projeto.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Criando Módulos Próprios",
+              "descricao": "Estruture seu código criando módulos personalizados.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Servidores Web",
+          "descricao": "Criação de APIs e aplicações web.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Servidor HTTP Básico",
+              "descricao": "Crie um servidor HTTP utilizando Node.js puro.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Express.js",
+              "descricao": "Aprenda a criar servidores de forma mais prática com Express.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Rotas e Middlewares",
+              "descricao": "Organize as rotas e adicione funcionalidades extras.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Banco de Dados com Node.js",
+          "descricao": "Integração do Node.js com bancos de dados.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Conexão com MongoDB",
+              "descricao": "Conecte sua aplicação ao MongoDB usando Mongoose.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Conexão com MySQL",
+              "descricao": "Utilize MySQL no Node.js com bibliotecas específicas.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Operações CRUD",
+              "descricao": "Implemente criação, leitura, atualização e exclusão de dados.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "TypeScript",
+      "certificate": false,
+      "descricao": "Aprenda TypeScript para escrever código JavaScript mais seguro, escalável e organizado.",
+      "duration": 20,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Fundamentos do TypeScript",
+          "descricao": "Introdução aos conceitos básicos do TypeScript.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é TypeScript",
+              "descricao": "Conheça o TypeScript, suas vantagens e casos de uso.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Configuração do Ambiente",
+              "descricao": "Instalação do TypeScript e configuração inicial do projeto.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Compilando TypeScript",
+              "descricao": "Como compilar código TypeScript para JavaScript.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Tipagem",
+          "descricao": "Entenda o sistema de tipos e como utilizá-lo.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Tipos Primitivos",
+              "descricao": "Uso de string, number, boolean e outros tipos básicos.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Arrays e Tuplas",
+              "descricao": "Definindo e utilizando listas e estruturas ordenadas.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Tipos Personalizados",
+              "descricao": "Criando aliases e tipos complexos.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Funções e Classes",
+          "descricao": "Aplicação de tipagem em funções e classes.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Funções Tipadas",
+              "descricao": "Definindo parâmetros e retornos com tipos.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Classes e Modificadores",
+              "descricao": "Uso de classes, atributos e modificadores de acesso.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Interfaces",
+              "descricao": "Definindo contratos para objetos e classes.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Recursos Avançados",
+          "descricao": "Explorando funcionalidades avançadas do TypeScript.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Generics",
+              "descricao": "Criando código reutilizável com tipos genéricos.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Decorators",
+              "descricao": "Utilizando decorators para metaprogramação.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Integração com JavaScript",
+              "descricao": "Trabalhando com bibliotecas JavaScript no TypeScript.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "UI/UX Design",
+      "certificate": true,
+      "descricao": "Aprenda a criar interfaces intuitivas e experiências incríveis para usuários, desde o planejamento até a prototipação.",
+      "duration": 30,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Fundamentos de UX",
+          "descricao": "Entenda o que é UX e sua importância no desenvolvimento de produtos digitais.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Introdução ao UX Design",
+              "descricao": "Conheça os princípios básicos do design centrado no usuário.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Pesquisa com Usuários",
+              "descricao": "Aprenda técnicas para entender as necessidades e comportamentos dos usuários.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Jornada do Usuário",
+              "descricao": "Mapeie o caminho e as interações dos usuários com o produto.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Fundamentos de UI",
+          "descricao": "Aprenda a criar interfaces visuais atraentes e funcionais.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Princípios de Design Visual",
+              "descricao": "Explore cores, tipografia, alinhamento e hierarquia visual.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Componentes de Interface",
+              "descricao": "Conheça botões, menus, formulários e outros elementos comuns.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Design Responsivo",
+              "descricao": "Crie layouts que funcionam em diferentes dispositivos e tamanhos de tela.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Prototipação e Ferramentas",
+          "descricao": "Aprenda a criar protótipos interativos para validar suas ideias.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Wireframes",
+              "descricao": "Desenvolva esboços básicos para planejar interfaces.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Ferramentas Populares",
+              "descricao": "Conheça Figma, Adobe XD e outras ferramentas de design.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Prototipação Interativa",
+              "descricao": "Crie protótipos navegáveis para testar fluxos de usuário.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Testes e Iteração",
+          "descricao": "Valide e melhore seu design com feedbacks reais.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Testes de Usabilidade",
+              "descricao": "Realize testes para identificar pontos de melhoria.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Análise de Métricas",
+              "descricao": "Utilize dados para tomar decisões informadas.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Iteração Contínua",
+              "descricao": "Aprimore seu produto baseado no feedback dos usuários.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "Segurança da Informação",
+      "certificate": true,
+      "descricao": "Aprenda os conceitos essenciais e técnicas práticas para proteger sistemas, dados e redes contra ameaças cibernéticas.",
+      "duration": 50,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Fundamentos de Segurança",
+          "descricao": "Conheça os princípios básicos da segurança da informação e seu papel nas organizações.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Introdução à Segurança da Informação",
+              "descricao": "Entenda os conceitos de confidencialidade, integridade e disponibilidade.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Tipos de Ameaças e Vulnerabilidades",
+              "descricao": "Conheça os principais tipos de ataques e como identificá-los.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Políticas e Normas de Segurança",
+              "descricao": "Entenda a importância das políticas para proteção dos ativos digitais.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Criptografia",
+          "descricao": "Aprenda os fundamentos da criptografia para proteger dados.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Conceitos Básicos de Criptografia",
+              "descricao": "Entenda como a criptografia funciona e seus tipos principais.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Criptografia Simétrica e Assimétrica",
+              "descricao": "Conheça as diferenças e aplicações de cada método.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Certificados Digitais e SSL/TLS",
+              "descricao": "Aprenda como garantir conexões seguras na web.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Segurança em Redes",
+          "descricao": "Proteja redes e sistemas contra invasões e ataques.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Firewalls e IDS/IPS",
+              "descricao": "Entenda como funcionam as barreiras de proteção de rede.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - VPN e Redes Seguras",
+              "descricao": "Configure redes privadas virtuais para segurança e privacidade.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Segurança Wireless",
+              "descricao": "Aprenda a proteger redes Wi-Fi contra ameaças comuns.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Gestão de Incidentes e Auditoria",
+          "descricao": "Prepare-se para detectar, responder e prevenir incidentes de segurança.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Monitoramento e Detecção de Incidentes",
+              "descricao": "Ferramentas e técnicas para identificar ataques em tempo real.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Resposta a Incidentes",
+              "descricao": "Planeje e execute ações para mitigar danos.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Auditoria e Conformidade",
+              "descricao": "Avalie e garanta o cumprimento de normas e boas práticas.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "Git e GitHub",
+      "certificate": false,
+      "descricao": "Aprenda controle de versão com Git e como usar o GitHub para colaboração e gerenciamento de projetos.",
+      "duration": 10,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Fundamentos do Git",
+          "descricao": "Conheça o que é Git, seu funcionamento e principais comandos.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Introdução ao Git",
+              "descricao": "Entenda o que é Git e por que usar controle de versão.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Configurando o Git",
+              "descricao": "Configure seu ambiente para usar Git no computador.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Comandos Básicos",
+              "descricao": "Aprenda a criar repositórios, adicionar e commitar arquivos.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Branches e Merge",
+          "descricao": "Trabalhe com ramificações e combine alterações.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Criando e Usando Branches",
+              "descricao": "Organize seu desenvolvimento com branches.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Fazendo Merge",
+              "descricao": "Combine alterações de diferentes branches sem perder dados.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Resolvendo Conflitos",
+              "descricao": "Aprenda a identificar e resolver conflitos de merge.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - GitHub e Colaboração",
+          "descricao": "Use GitHub para hospedar projetos e colaborar com outros desenvolvedores.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Criando Repositórios no GitHub",
+              "descricao": "Configure e publique seus projetos no GitHub.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Pull Requests e Revisão de Código",
+              "descricao": "Contribua e revise código em projetos colaborativos.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Issues e Projetos",
+              "descricao": "Gerencie tarefas e bugs com as ferramentas do GitHub.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Git Avançado",
+          "descricao": "Domine técnicas avançadas para controle de versões eficiente.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Rebase e Cherry-Pick",
+              "descricao": "Aprenda a reorganizar commits com segurança.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Git Stash",
+              "descricao": "Salve mudanças temporariamente para continuar depois.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Hooks do Git",
+              "descricao": "Automatize tarefas com hooks pré e pós-commit.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "Docker",
+      "certificate": true,
+      "descricao": "Aprenda a criar, gerenciar e distribuir containers com Docker, otimizando o desenvolvimento e a entrega de aplicações.",
+      "duration": 25,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Introdução ao Docker",
+          "descricao": "Entenda o que é Docker e os benefícios da containerização.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é Docker",
+              "descricao": "Conheça os conceitos básicos e a arquitetura do Docker.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Instalando o Docker",
+              "descricao": "Configure o ambiente Docker no seu sistema operacional.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Primeiros Containers",
+              "descricao": "Crie e execute seus primeiros containers Docker.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Imagens Docker",
+          "descricao": "Aprenda a criar e gerenciar imagens Docker personalizadas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Entendendo Imagens",
+              "descricao": "Conheça como funcionam as imagens Docker.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Criando Dockerfile",
+              "descricao": "Escreva arquivos Dockerfile para automatizar builds.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Otimizando Imagens",
+              "descricao": "Reduza o tamanho e aumente a eficiência das imagens.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Redes e Volumes",
+          "descricao": "Configure redes e armazenamento persistente para containers.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Redes no Docker",
+              "descricao": "Gerencie comunicação entre containers com redes Docker.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Volumes e Bind Mounts",
+              "descricao": "Armazene dados de forma persistente usando volumes.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Compartilhamento de Dados",
+              "descricao": "Configure containers para compartilhar dados e arquivos.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Docker Compose e Deploy",
+          "descricao": "Automatize múltiplos containers e prepare aplicações para produção.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Introdução ao Docker Compose",
+              "descricao": "Orquestre vários containers usando Docker Compose.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Arquivo docker-compose.yml",
+              "descricao": "Escreva configurações para múltiplos serviços.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Deploy e Boas Práticas",
+              "descricao": "Implemente e gerencie containers em ambiente de produção.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "DevOps",
+      "certificate": true,
+      "descricao": "Aprenda práticas e ferramentas DevOps para integração contínua, entrega automatizada e colaboração entre equipes de desenvolvimento e operações.",
+      "duration": 40,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Introdução ao DevOps",
+          "descricao": "Entenda os conceitos, cultura e benefícios do DevOps nas organizações.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é DevOps",
+              "descricao": "Conheça os fundamentos e objetivos do DevOps.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Cultura e Colaboração",
+              "descricao": "Aprenda a importância da comunicação entre times.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Ciclo de Vida DevOps",
+              "descricao": "Entenda as fases do desenvolvimento e operação integradas.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Integração Contínua (CI)",
+          "descricao": "Automatize testes e builds para garantir qualidade constante.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Ferramentas de CI",
+              "descricao": "Conheça Jenkins, Travis CI, GitHub Actions e outras.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Pipelines de Build",
+              "descricao": "Crie pipelines para automatizar processos.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Testes Automatizados",
+              "descricao": "Implemente testes para garantir a qualidade do código.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Entrega Contínua (CD)",
+          "descricao": "Automatize a entrega e deploy de aplicações com segurança.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Deploy Automatizado",
+              "descricao": "Configure processos para entrega rápida e confiável.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Gerenciamento de Configurações",
+              "descricao": "Use ferramentas como Ansible, Puppet e Chef.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Monitoramento e Feedback",
+              "descricao": "Implemente monitoramento para melhorar processos.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Containers e Orquestração",
+          "descricao": "Gerencie aplicações com containers e ferramentas de orquestração.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Docker para DevOps",
+              "descricao": "Entenda como containers facilitam o DevOps.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Kubernetes Básico",
+              "descricao": "Conheça conceitos e uso do Kubernetes.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Escalabilidade e Resiliência",
+              "descricao": "Implemente práticas para aplicações robustas.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "Inteligência Artificial",
+      "certificate": true,
+      "descricao": "Aprenda os fundamentos e técnicas de IA para construir sistemas inteligentes e automatizados.",
+      "duration": 60,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Fundamentos de IA",
+          "descricao": "Entenda o que é IA, história, conceitos e áreas de aplicação.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Introdução à Inteligência Artificial",
+              "descricao": "Conceitos básicos, evolução e importância da IA.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Tipos de IA",
+              "descricao": "Conheça IA fraca, forte, supervisionada e não supervisionada.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Ética em IA",
+              "descricao": "Discussões sobre impactos éticos e sociais da IA.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Aprendizado de Máquina",
+          "descricao": "Aprenda os conceitos e algoritmos básicos de machine learning.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é Aprendizado de Máquina",
+              "descricao": "Fundamentos e exemplos práticos de ML.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Algoritmos Supervisionados",
+              "descricao": "Regressão, classificação e árvores de decisão.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Algoritmos Não Supervisionados",
+              "descricao": "Clusterização, agrupamento e redução de dimensionalidade.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Redes Neurais e Deep Learning",
+          "descricao": "Conheça arquiteturas avançadas para tarefas complexas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Redes Neurais Artificiais",
+              "descricao": "Estrutura e funcionamento das redes neurais.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Deep Learning e Redes Profundas",
+              "descricao": "Aprenda sobre camadas profundas e aplicações.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Frameworks de IA",
+              "descricao": "Introdução a TensorFlow, PyTorch e outras ferramentas.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Projetos Práticos",
+          "descricao": "Aplique seus conhecimentos em projetos reais de IA.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Classificador de Imagens",
+              "descricao": "Crie um sistema para reconhecer imagens automaticamente.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Processamento de Linguagem Natural",
+              "descricao": "Desenvolva aplicações que entendem texto e voz.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Chatbots Inteligentes",
+              "descricao": "Construa assistentes virtuais usando IA.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "Flutter",
+      "certificate": true,
+      "descricao": "Aprenda a criar aplicativos mobile bonitos e performáticos para Android e iOS com Flutter.",
+      "duration": 35,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Introdução ao Flutter",
+          "descricao": "Conheça o Flutter, sua arquitetura e como configurar o ambiente.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é Flutter",
+              "descricao": "Entenda os conceitos básicos do Flutter e suas vantagens.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Instalando o Flutter SDK",
+              "descricao": "Configure seu ambiente para desenvolver com Flutter.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Criando o Primeiro App",
+              "descricao": "Desenvolva seu primeiro aplicativo Flutter do zero.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Widgets e Layouts",
+          "descricao": "Aprenda a construir interfaces responsivas e flexíveis.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Widgets Básicos",
+              "descricao": "Conheça os widgets fundamentais para construção de UI.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Layouts com Rows e Columns",
+              "descricao": "Organize elementos usando Rows, Columns e Containers.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Widgets Personalizados",
+              "descricao": "Crie seus próprios widgets para reutilização.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Estado e Navegação",
+          "descricao": "Gerencie estados e navegue entre telas do aplicativo.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Gerenciamento de Estado",
+              "descricao": "Entenda StatefulWidgets e outras formas de gerenciar estado.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Navegação entre Telas",
+              "descricao": "Implemente navegação simples e com parâmetros.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Rotas Nomeadas",
+              "descricao": "Use rotas nomeadas para organizar a navegação do app.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Integração e Publicação",
+          "descricao": "Consuma APIs, gerencie dados e publique seu app.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Consumindo APIs REST",
+              "descricao": "Busque e envie dados usando HTTP em Flutter.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Armazenamento Local",
+              "descricao": "Salve dados no dispositivo com Shared Preferences e SQLite.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Publicando o App",
+              "descricao": "Prepare e publique seu aplicativo nas lojas Android e iOS.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "Análise de Dados",
+      "certificate": true,
+      "descricao": "Aprenda a coletar, organizar, analisar e interpretar dados para tomadas de decisão estratégicas.",
+      "duration": 40,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Fundamentos de Análise de Dados",
+          "descricao": "Entenda conceitos básicos e a importância da análise de dados nas empresas.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Introdução à Análise de Dados",
+              "descricao": "Conheça o que é análise de dados e suas aplicações.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Tipos de Dados e Fontes",
+              "descricao": "Aprenda sobre dados estruturados, não estruturados e suas origens.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Ferramentas Populares",
+              "descricao": "Explore as principais ferramentas usadas na análise de dados.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Manipulação e Limpeza de Dados",
+          "descricao": "Prepare os dados para análises precisas e confiáveis.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Técnicas de Limpeza de Dados",
+              "descricao": "Aprenda a identificar e corrigir dados inconsistentes.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Manipulação com Pandas",
+              "descricao": "Use a biblioteca Pandas para organizar e transformar dados.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Tratamento de Dados Faltantes",
+              "descricao": "Saiba como lidar com valores ausentes em datasets.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Análise Exploratória de Dados",
+          "descricao": "Explore os dados para identificar padrões e insights.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Estatísticas Descritivas",
+              "descricao": "Entenda medidas como média, mediana, variância e desvio padrão.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Visualização de Dados",
+              "descricao": "Crie gráficos e dashboards para representar informações.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Ferramentas de Visualização",
+              "descricao": "Conheça Matplotlib, Seaborn e Power BI.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Técnicas Avançadas e Projetos",
+          "descricao": "Aplique métodos avançados e desenvolva projetos reais.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Análise Preditiva",
+              "descricao": "Introdução a modelos que fazem previsões com base em dados.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Machine Learning Básico",
+              "descricao": "Conheça algoritmos simples para análise avançada.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Projeto Prático de Análise",
+              "descricao": "Realize um projeto completo do início ao fim.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    },{
+      "titulo": "Cloud Computing",
+      "certificate": true,
+      "descricao": "Aprenda os conceitos, serviços e práticas essenciais para utilizar a computação em nuvem de forma eficiente e segura.",
+      "duration": 45,
+      "modulos": [
+        {
+          "titulo": "Módulo 1 - Introdução à Computação em Nuvem",
+          "descricao": "Entenda o que é cloud computing, seus modelos e vantagens.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - O que é Cloud Computing",
+              "descricao": "Conheça os fundamentos e benefícios da computação em nuvem.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Modelos de Serviço (IaaS, PaaS, SaaS)",
+              "descricao": "Entenda as diferenças e aplicações dos principais modelos.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Modelos de Implantação (Pública, Privada, Híbrida)",
+              "descricao": "Explore os tipos de nuvem e quando usar cada um.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 2 - Principais Provedores de Nuvem",
+          "descricao": "Conheça as plataformas líderes no mercado e seus serviços.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Amazon Web Services (AWS)",
+              "descricao": "Introdução aos serviços mais usados da AWS.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Microsoft Azure",
+              "descricao": "Explore os recursos e ferramentas do Azure.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Google Cloud Platform (GCP)",
+              "descricao": "Conheça os principais serviços do Google Cloud.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 3 - Serviços Essenciais na Nuvem",
+          "descricao": "Aprenda sobre computação, armazenamento, redes e segurança em nuvem.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Computação em Nuvem",
+              "descricao": "Uso de máquinas virtuais e containers em nuvem.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Armazenamento e Banco de Dados",
+              "descricao": "Soluções para armazenar e gerenciar dados na nuvem.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Segurança na Nuvem",
+              "descricao": "Práticas e ferramentas para proteger dados e aplicações.",
+              "video": "videoplayback.mp4"
+            }
+          ]
+        },
+        {
+          "titulo": "Módulo 4 - Implantação e Gerenciamento",
+          "descricao": "Configure, monitore e otimize seus recursos na nuvem.",
+          "aulas": [
+            {
+              "titulo": "Aula 1 - Automação e Infraestrutura como Código",
+              "descricao": "Use ferramentas como Terraform e CloudFormation.",
+              "video": "videotest1.mp4"
+            },
+            {
+              "titulo": "Aula 2 - Monitoramento e Escalabilidade",
+              "descricao": "Garanta performance e disponibilidade do seu ambiente.",
+              "video": "videoplayback.mp4"
+            },
+            {
+              "titulo": "Aula 3 - Custos e Otimização",
+              "descricao": "Gerencie gastos e otimize recursos na nuvem.",
+              "video": "videotest1.mp4"
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}

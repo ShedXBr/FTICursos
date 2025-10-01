@@ -1,0 +1,273 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #000;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    top:0;
+    position:fixed;
+    width: 100%;
+    z-index:2;
+    background: #000;
+}
+
+
+nav h1{
+    position: relative;
+    z-index:1;
+    
+    color: #CFFFE2;
+    display: inline-block;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+   
+}
+nav ul li{
+    margin:5px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+nav ul li a{
+    margin:5px;
+    position:relative;
+    color:#F6F6F6;
+    transition: .3s;
+    font-size:1.1rem;
+    padding:5px;
+}
+nav ul li::before{
+    content:" ";
+    width: 0;
+    background-color: #A2D5C6;
+    position:absolute;
+    height:100%;
+    transition: .5s;
+    border-radius: 3px;
+    z-index:0;
+}
+nav ul li:hover::before{
+    width:100%;
+    
+}
+.abtn{
+    position: relative;
+    background-color: #CFFFE2;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow:
+        0 0 5px #CFFFE2,
+        0 0 10px #CFFFE2,
+        0 0 20px #CFFFE2;
+        
+        transition: 0.3s;
+        color: #000;
+        font-weight: 600;
+}
+.abtn:hover{
+     box-shadow: none;
+    background-color: #000;
+    color:#F6F6F6;
+}
+nav ul li:hover a{
+    color:#000;
+}
+.classti{
+    color: #CFFFE2;
+    
+    cursor: pointer;
+    margin: 10px 0;
+}
+#coursearea{
+    color: #CFFFE2;
+    display: flex;
+    padding: 30px;
+}
+section{
+    position:relative;
+    top: 70px;
+}
+#home{
+    
+    display: flex;
+    flex-direction: column;
+    color: #CFFFE2;
+    padding: 10px;
+}
+#home img{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#home h1{
+    
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+#coursearea .vidp{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.vidp .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.buttons button{
+    background-color: #000;
+    color: #CFFFE2;
+    padding: 10px 20px;
+    border: 3px solid #CFFFE2;
+    
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.buttons button:hover{
+    background-color: #CFFFE2;
+    color: #000;
+}
+.vidp video{
+    width: 100%;
+    
+    border-radius: 10px;
+}
+.modul{
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+     border: 3px solid #F6F6F6;
+     height: 100%;
+}
+.modulacord{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+   
+    transition: background-color 0.3s, color 0.3s;
+}
+.modulacord ul{
+    list-style: none;
+   padding: 0;
+}
+
+.modulacord button{
+    background-color: #000;
+    color: #F6F6F6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s;
+}
+.modulacord div{
+    max-height: 0;
+    overflow: hidden;
+     transition: max-height 0.4s ease;
+}
+footer{
+    position: relative;
+    top:70px;
+    color: #F6F6F6;
+    padding: 20px;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    font-size: 1.4rem;
+    margin: 10px;
+
+}
+footer li a{
+    color: #F6F6F6;
+    text-decoration: none;
+    transition: .3s;
+}
+footer li a:hover{
+    color: #A2D5C6;
+}
+footer div{
+    display: flex;;
+}
+.btnmenu{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+     nav ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        transition: .5s;
+        overflow: hidden;
+        right: 0;
+        top: 70px;
+        background-color: #A2D5C6;
+        height: 0;
+    }
+    .btnmenu{
+        display: block;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: #F6F6F6;
+        font-size: 2.5rem;
+    }
+    nav ul li::before{
+        background-color: #000;
+    }
+    nav ul li:hover a{
+        color: #A2D5C6;
+    }
+    nav ul li a{
+        font-size: 1rem;
+
+    }
+    .btnmenu {
+        display: block;
+    }
+    #coursearea .vidp {
+        width: 100%;
+    }
+    #coursearea {
+        flex-direction: column;
+        align-items: center;
+    }
+    #coursearea .modul {
+        width: 100%;
+        padding: 10px;
+    }
+     footer{
+        padding: 5px;
+    }
+    footer ul{
+        padding:0px;
+    }
+    footer li{
+        margin:10px;
+    }
+}

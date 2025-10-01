@@ -30,6 +30,7 @@ btn1.addEventListener("click", function() {
 
 document.getElementById("forgotpass").addEventListener("click", function(event) {
     event.preventDefault();
+    alert("Um email foi enviado para você!");
     fetch('/recpass', {
         method: 'POST',
         headers: {
